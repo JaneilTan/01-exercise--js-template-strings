@@ -10,7 +10,7 @@ Bill Murray
 
 const firstName = "Bill";
 const lastName = "Murray";
-const fullName = null;
+const fullName = `${firstName} ${lastName}`;
 
 /**
  * Part B
@@ -25,7 +25,11 @@ the following multi line string (including indentation):
 
 */
 
-const listHTML = null;
+const listHTML = 
+`<ul>
+  <li>Banana</li>
+  <li>Orange</li>
+</ul>`;
 
 /**
  * Part C
@@ -40,6 +44,6 @@ const albumName = "Purple Rain";
 const albumArtist = "Prince";
 const albumYear = 1984;
 
-const albumText = null;
+const albumText = `${albumName} by ${albumArtist} was released in ${albumYear}`;
 
 export { fullName, listHTML, albumText };
